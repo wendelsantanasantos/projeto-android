@@ -23,7 +23,7 @@ body{
     margin: auto;
     padding-top: 50px;  
     font-family: "Kode Mono", monospace;
-    min-width: 380px;
+    min-width: 450px;
 }
 
 #titulo-cabecalho{
@@ -33,8 +33,6 @@ body{
     color: #fff;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.473);
     text-align: center;
-    padding: 20px;
-    display: block;
   }
 
 
@@ -125,7 +123,7 @@ main a:hover {
     display: block;
     border-radius:0 0 10px 10px;
     max-width: 800px;
-    min-width: 380px;
+    min-width: 450px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
     line-height: 1.5;
 }
