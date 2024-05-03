@@ -186,5 +186,6 @@ picture .menor{
     padding: 1px;
     display: block;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.37);
+    width: 100%;
 }
 
