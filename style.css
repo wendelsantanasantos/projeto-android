@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'robot' ;
+    src: url(fontes/idroid.otf); format: (OpenType);}
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    background: linear-gradient(to top, #237883, #93e4e4 ) ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+.cabecalho {
+    background: linear-gradient(to top, #041E40, #0f487c);
+    color: rgb(255, 255, 255);
+    text-align:center ;
+    margin: auto;
+    padding: 50px;  
+    font-family: "Kode Mono", monospace;
+}
+
+#titulo-cabecalho{
+    font-family: "Kode Mono", monospace;
+    font-size: 3.5em;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.473);
+  }
+
+
+.menu{
+    background-color: #041E40;
+    margin: auto;
+    padding:10px 0 ;
+    font-family: "Kode Mono", monospace;
+    display: flex;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.288);
+    font-weight: bold;
+    
+}
+  
+.menu ul {
+
+    display: flex;
+    margin: 10px;
+    
+}
+
+.menu li{
+
+    display: flex;
+    
+}
+
+.menu  a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #a6dada;
+    padding:5px 15px;
+    margin: auto;
+    display: block;
+}
+
+li:hover > a
+{
+    background-color: #3c7e7e8a;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.6s;
+    
+}
+
+
+h1{
+    font-family:'robot';
+    font-size: 2.2em;
+    color: #041E40;
+    padding: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+p{
+    text-indent: 20px;
+    padding: 20px;
+}
+
+strong{
+    color: #07326b;
+    padding: 3px;
+    font-weight: bold;
+}
+
+main a{
+    background-color: #23788354;
+    color: #043574;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+    background-color: #7da8ad38;
+}
+
+.conteudo{
+    background-color:#f0f2f5;
+    margin:auto;
+    padding-top: 1px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius:0 0 10px 10px;
+    max-width: 800px;
+    min-width: 320px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.conteudo > h2{
+    background: linear-gradient(to right, #0e294046, transparent);
+    font-family:'robot';
+    color: #041E40;
+    padding:0px 10px ;
+    margin: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.video {
+    
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+.container-video{
+    background-color: #0E2940;
+    padding: 0;
+    display: block;
+
+}
+picture {
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+picture .menor{
+    max-width: 350px;
+}
+
+.extra{
+    background-color: #6eb4c993;
+    border-radius: 20px;
+    margin: 20px;
+    text-justify: auto;
+    box-shadow: 0 0 10px rgba(17, 69, 99, 0.493);
+  }
+
+.extra > h2{
+   background-color:#22508b;
+   padding: 10px;
+   display: block;
+   border-radius: 20px 20px 0px 0px ;
+   color: #fff;
+   
+
+} 
+
+.extra > ul{
+    padding: 10px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+.rodape{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    padding: 1px;
+    display: block;
+}
+
