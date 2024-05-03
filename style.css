@@ -145,7 +145,8 @@ main a:hover {
 picture {
     margin: auto;
     display: block;
-    width: 100%;
+    max-width: 100%;
+    min-width: 50%;
     text-align: center;
 }
 
