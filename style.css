@@ -11,8 +11,6 @@
 body{
     background: linear-gradient(to top, #237883, #93e4e4 ) ;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-
 }
 
 
@@ -145,8 +143,7 @@ main a:hover {
 picture {
     margin: auto;
     display: block;
-    max-width: 100%;
-    min-width: 50%;
+    width: 100%;
     text-align: center;
 }
 
