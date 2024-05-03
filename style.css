@@ -21,9 +21,8 @@ body{
     color: rgb(255, 255, 255);
     text-align:center ;
     margin: auto;
-    padding-top: 50px;  
+    padding: 40px 0px;  
     font-family: "Kode Mono", monospace;
-    min-width: 250px;
 }
 
 #titulo-cabecalho{
@@ -33,34 +32,28 @@ body{
     color: #fff;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.473);
     text-align: center;
-    padding: 0px;
+    padding-top: 20px;
   }
 
 
 .menu{
     background-color: #041E40;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 30px;
     font-family: "Kode Mono", monospace;
     display: flex;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.288);
     font-weight: bold;
-    min-width: 250px;
-    
 }
   
 .menu ul {
 
     display: flex;
     padding: 10px;
-
-    
 }
 
 .menu li{
-
     display: flex;
-    
 }
 
 .menu  a{
@@ -68,15 +61,13 @@ body{
     font-size: 1.1em;
     color: #a6dada;
     padding:5px 15px;
-    margin: auto;
-    display: block;
 }
 
 li:hover > a
 {
     background-color: #3c7e7e8a;
     border-radius: 20px;
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: 0.6s;
     
 }
@@ -120,12 +111,11 @@ main a:hover {
 .conteudo{
     background-color:#f0f2f5;
     margin:auto;
-    padding-top: 1px;
     margin-bottom: 20px;
     display: block;
     border-radius:0 0 10px 10px;
     max-width: 1000px;
-    min-width: 250px;
+    min-width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
     line-height: 1.5;
 }
@@ -141,16 +131,15 @@ main a:hover {
 }
 
 .video {
-    
     width: 95%;
-    display: block;
+    display: flex;
     margin: auto;
 }
 
 .container-video{
     background-color: #0E2940;
     padding: 0;
-    display: block;
+    display: flex;
 
 }
 picture {
@@ -189,10 +178,11 @@ picture .menor{
 }
 
 .rodape{
-    background-color: blue;
+    background-color: rgba(3, 68, 99, 0.829);
     color: aliceblue;
     text-align: center;
     padding: 1px;
     display: block;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.37);
 }
 
