@@ -23,7 +23,7 @@ body{
     margin: auto;
     padding-top: 50px;  
     font-family: "Kode Mono", monospace;
-    min-width: 500px;
+    min-width: 320px;
 }
 
 #titulo-cabecalho{
@@ -33,18 +33,19 @@ body{
     color: #fff;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.473);
     text-align: center;
+    padding: 0px;
   }
 
 
 .menu{
     background-color: #041E40;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 50px;
     font-family: "Kode Mono", monospace;
     display: flex;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.288);
     font-weight: bold;
-    min-width: 500px;
+    min-width: 320px;
     
 }
   
@@ -124,7 +125,7 @@ main a:hover {
     display: block;
     border-radius:0 0 10px 10px;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
     line-height: 1.5;
 }
